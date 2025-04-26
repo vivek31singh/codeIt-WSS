@@ -1,0 +1,18 @@
+{
+  "name": "wss",
+  "version": "1.0.0",
+  "description": "websocket server for codeIt",
+  "main": "wsServer.js",
+  "scripts": {
+    "start": "node wsServer.js",
+    "build": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
