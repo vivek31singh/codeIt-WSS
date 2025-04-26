@@ -4,7 +4,7 @@ import http from "http";
 import { Server } from "socket.io";
 
 // redis imports
-import redis from "../lib/redisClient.js";
+import redis from "./lib/redisClient.js";
 
 //  unique id genrerator imports
 import { v4 as uuidv4 } from "uuid";
